@@ -49,7 +49,6 @@ const validate = values => {
   return errors
 }
 
-
 const SyncValidationForm = props => {
   const { handleSubmit, pristine, reset, submitting } = props
   return (
